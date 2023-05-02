@@ -13,7 +13,10 @@
 
 
 		body {
-			background: linear-gradient(to bottom right, #4a148c, #7b1fa2, #9c27b0, #ba68c8, #e1bee7);
+			
+			
+  			background: linear-gradient(to bottom right, #360033, #0b8793); 
+
 			color: #ffffff;
 			font-family: Arial, sans-serif;
 			margin: 0;
@@ -39,21 +42,27 @@
 			animation-fill-mode: forwards;
 			opacity: 0;
 		}
+
+		a {
+			color: #310335;
+		}
+
+
 		button {
 			background: #ffffff;
 			border: none;
 			border-radius: 2rem;
-			color: #0a1f97;
+			color: #040b35;
 			font-size: 1.5rem;
 			padding: 1rem 2rem;
 			margin-top: 2rem;
 			cursor: pointer;
-			animation: fadeIn 2s ease-in-out;
+			
 			animation-fill-mode: forwards;
 			opacity: 1;
 		}
 		button:hover {
-			background: #cf08bf;
+			background: #450283;
 			color: #ffffff;
 			transform: scale(1.1);
 			animation: pulse 0.5s ease-in-out infinite alternate;
@@ -90,17 +99,18 @@
 	<p>Здесь вы можете узнать больше обо мне и моих проектах</p>
 
 
-    <button id="show-projects-btn">Показать проекты</button>
+    <button id="show-projects-btn">Мои проекты</button>
 <div id="projects-container">
     <p><a href="https://www.blast.hk/threads/169689/">Simple Tank Control</a></p>
 
 </div>
 
-<button id="show-contacts-btn">Показать контакты</button>
+<button id="show-contacts-btn">Контакты</button>
 <div id="contacts-container">
 
     <p><a href="https://www.blast.hk/members/445601/">Мой профиль на форуме Blast-Hack</a></p>
   <!-- здесь могут быть элементы с контактной информацией -->
+  <p><a href="https://discord.gg/A9ZJMYmjwn">Дискорд сервер где я общаюсь(нет)</a></p>
 </div>
 
 <script src="js/main.js">
