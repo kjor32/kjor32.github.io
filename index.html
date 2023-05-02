@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Сайт Долбоеба
+    </title>
+	<style>
+
+        #projects-container,
+        #contacts-container {
+        display: none; /* изначально скрываем контейнеры */
+}
+
+
+
+		body {
+			background: linear-gradient(to bottom right, #4a148c, #7b1fa2, #9c27b0, #ba68c8, #e1bee7);
+			color: #fff;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		h1 {
+			font-size: 4rem;
+			text-align: center;
+			margin: 0;
+			animation: slideUp 1s ease-in-out;
+			animation-fill-mode: forwards;
+		}
+		p {
+			font-size: 1.5rem;
+			text-align: center;
+			margin: 2rem 0;
+			animation: fadeIn 2s ease-in-out;
+			animation-fill-mode: forwards;
+			opacity: 0;
+		}
+		button {
+			background: #ffffff;
+			border: none;
+			border-radius: 2rem;
+			color: #1c148c;
+			font-size: 1.5rem;
+			padding: 1rem 2rem;
+			margin-top: 2rem;
+			cursor: pointer;
+			animation: fadeIn 2s ease-in-out;
+			animation-fill-mode: forwards;
+			opacity: 0;
+		}
+		button:hover {
+			background: #141c8c;
+			color: #ffffff;
+			transform: scale(1.1);
+			animation: pulse 0.5s ease-in-out infinite alternate;
+		}
+		@keyframes slideUp {
+			from {
+				transform: translateY(100%);
+			}
+			to {
+				transform: translateY(0);
+			}
+		}
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1;
+			}
+		}
+		@keyframes pulse {
+			from {
+				transform: scale(1);
+			}
+			to {
+				transform: scale(1.2);
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Добро пожаловать на мой сайт</h1>
+	<p>Здесь вы можете узнать больше обо мне и моих проектах</p>
+
+
+    <button id="show-projects-btn">Показать проекты</button>
+<div id="projects-container">
+    <p><a href="https://www.blast.hk/threads/169689/">Simple Tank Control</a></p>
+
+</div>
+
+<button id="show-contacts-btn">Показать контакты</button>
+<div id="contacts-container">
+
+    <p><a href="https://www.blast.hk/members/445601/">Мой профиль на форуме Blast-Hack</a></p>
+  <!-- здесь могут быть элементы с контактной информацией -->
+</div>
+
+<script src="js/main.js">
+
+</script>
+
+
+
+
+
+</body>
+</html>
