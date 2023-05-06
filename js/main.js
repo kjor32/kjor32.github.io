@@ -19,3 +19,6 @@ showContactsBtn.addEventListener('click', () => {
     contactsContainer.style.display = 'none'; 
   }
 });
+
+
+
