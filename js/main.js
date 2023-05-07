@@ -5,9 +5,10 @@ const showContactsBtn = document.getElementById('show-contacts-btn');
 const contactsContainer = document.getElementById('contacts-container');
 
 showProjectsBtn.addEventListener('click', function(){
-    projectsContainer.style.display ? projectsContainer.style.display = 'none' : projectsContainer.style.display = 'block';
+    console.log(projectsContainer.style.display)
+    projectsContainer.style.display === 'none' ? projectsContainer.style.display = 'block' : projectsContainer.style.display = 'none';
 });
 
 showContactsBtn.addEventListener('click', function(){
-    contactsContainer.style.display ? contactsContainer.style.display = 'none' : contactsContainer.style.display = 'block';
+    contactsContainer.style.display === 'none' ? contactsContainer.style.display = 'block' : contactsContainer.style.display = 'none';
 });
