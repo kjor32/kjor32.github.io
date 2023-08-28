@@ -1,0 +1,68 @@
+a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #216583;
+}
+
+li {
+    float: left;
+}
+
+li a:link, li a:visited {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4797b1;
+}
+
+li a:active {
+    background-color: #67beda;
+}
+
+li a.active {
+    background-color: #4797b1;
+}
+
+p.new_update {
+    font-weight: bold;
+    color: #00b100;
+    font-size: large;
+}
+
+form.file_upload {
+    margin-top: 15px;
+}
+
+button.start_upload {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    width: 350px;
+}
+
+div.proto:hover {
+    background-color: aliceblue;
+}
